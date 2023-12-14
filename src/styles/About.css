@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@600&family=Montserrat&display=swap');
+
+.container{
+  padding: 120px 150px 0px 130px;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+}
+
+.title-1{
+  font-family: 'Kalnia', serif;
+  font-size: 80px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.experience{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 35px;
+}
+
+.experience p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.photos-experience{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.photo-experience{
+  width: 350px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+@media(max-width: 1200px) {
+}
+
+@media(max-width: 960px) {
+  .container{
+    padding: 90px 120px 0px 100px;
+  }
+  .about h1{
+    font-size: 60px;
+  }
+  .experience p{
+    font-size: 18px;
+  }
+  .photo-experience{
+    width: 220px;
+  }
+}
+
+@media(max-width: 760px) {
+  .photo-experience{
+    width: 270px;
+  }
+  .photos-experience{
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container{
+    padding: 90px 35px 0px 35px;
+  }
+  .about h1 {
+    font-size: 45px;
+  }
+  .experience p {
+    font-size: 16px;
+}
+}

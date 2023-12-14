@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@600&family=Montserrat&display=swap');
+
+.navbar{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: cornflowerblue;
+  width: -webkit-fill-available;
+  position: fixed;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.navbar a:hover{
+  color: white;
+}
+
+.links {
+  overflow: hidden;
+  background-color: cornflowerblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.links {
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 35px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.toggleButton {
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.toggleButton svg {
+  font-size: 50px;
+}
+
+.toggleButton button {
+  margin-right: 50px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#open {
+  height: 60vh;
+}
+
+#open .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: static;
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 960px){
+  .links{
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .navbar a {
+    width: 70px;
+  }
+
+  .links{
+    display: none;
+  }
+  .toggleButton {
+    display: flex;
+  }
+  #close a {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .toggleButton {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+
+  #open {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .navbar{
+    gap: 0px;
+  }
+  .navbar a{
+    margin: 0px;
+  }
+  #open .links{
+    gap: 40px;
+  }
+}
+
+

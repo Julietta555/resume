@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@600&family=Montserrat&display=swap');
+
+.container{
+  padding: 120px 150px 0px 130px;
+}
+
+.start-info{
+  display: flex;
+  gap: 40px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.me_img{
+  width: 350px;
+  height: max-content;
+  border-radius: 20px;
+}
+
+.text-info{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  flex-wrap: wrap;
+}
+
+.title-1{
+  font-family: 'Kalnia', serif;
+  font-size: 80px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.title-2{
+  font-family: 'Kalnia', serif;
+  font-size: 80px;
+  margin: 0;
+  padding-left: 90px;
+  margin-bottom: 25px;
+}
+
+.text p{
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  color: #4b4a4a;
+}
+
+.buttons{
+  margin-top: 35px;
+}
+
+.buttons button{
+  width: 190px;
+  height: 60px;
+  font-size: 20px;
+  background-color: cornflowerblue;
+  border-radius: 40px;
+  border: #ffffff;
+}
+
+.buttons :hover{
+  background-color: royalblue;
+}
+
+.button_text{
+  text-decoration: auto;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about-info{
+  margin-top: 100px;
+}
+
+.about-info h2{
+  font-family: 'Kalnia', serif;
+  font-size: 60px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.info{
+  display: grid;
+  grid-template-columns: 30% 50% 40%;
+}
+
+.education, .skills, .languages{
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  flex-direction: column;
+  justify-self: center;
+  margin-top: 25px;
+}
+
+.education h3, .skills h3, .languages h3{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.education p, .skills p, .languages p{
+  display: flex;
+  font-size: 20px;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.projects1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.projects h2{
+  font-family: 'Kalnia', serif;
+  font-size: 60px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  width: 600px;
+}
+
+.projects-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects-title button{
+  width: 190px;
+  height: 60px;
+  font-size: 20px;
+  background-color: cornflowerblue;
+  border-radius: 40px;
+  border: #ffffff;
+}
+
+.projects-title :hover{
+  background-color: royalblue;
+}
+
+.projects-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.project{
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  border: #4b4a4a solid 1px;
+  width: 500px;
+  height: 250px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-description{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.project-description h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+.project-description p{
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  flex-wrap: wrap;
+  width: 250px;
+}
+
+.project-description a{
+  color: black;
+}
+
+.projects-img{
+  width: 200px;
+  height: max-content;
+}
+
+.offers{
+  margin-top: 100px;
+}
+
+.offers h2{
+  font-family: 'Kalnia', serif;
+  font-size: 60px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.offers-list{
+  display: grid;
+  margin-top: 15px;
+  grid-template-columns: 35% 34% 35%;
+  grid-column-gap: 4%;
+}
+
+.offer{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.offer h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+.offer p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.download{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.download h2{
+  font-family: 'Kalnia', serif;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.button-pdf{
+  width: 190px;
+  height: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  background-color: cornflowerblue;
+  border-radius: 40px;
+  border: #ffffff;
+  color: #fff;
+}
+
+.button-pdf :hover{
+  background-color: royalblue;
+}
+
+
+@media (max-width: 960px) {
+  .container{
+    padding: 90px 120px 0px 100px;
+  }
+  .me_img{
+    width: 200px;
+  }
+  .text h1{
+    font-size: 50px;
+  }
+  .title-2{
+    padding: 0;
+  }
+  .buttons button{
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+  }
+  .about-info{
+    margin-top: 70px;
+  }
+  .about-info h2{
+    font-size: 45px;
+  }
+  .education, .skills, .languages{
+    margin-top: 10px;
+  }
+  .education h3, .skills h3, .languages h3{
+    font-size: 20px;
+  }
+  .education p, .skills p, .languages p{
+    font-size: 15px;
+  }
+  .info{
+    grid-template-columns: 30% 40% 40%;
+  }
+  .projects, .offers{
+    margin-top: 70px;
+  }
+  .project{
+    height: 195px;
+  }
+  .projects h2, .offers h2{
+    font-size: 45px;
+  }
+  .projects-title button{
+    width: 215px;
+    height: 45px;
+    font-size: 15px;
+  }
+  .project-description h2{
+    font-size: 23px;
+    width: auto;
+  }
+  .project-description p{
+    font-size: 18px;
+  }
+  .offer h3{
+    font-size: 22px;
+  }
+  .offer p{
+    font-size: 17px;
+  }
+  .offers-list{
+    grid-template-columns: 30% 30% 30%;
+  }
+}
+
+@media (max-width: 760px) {
+  .container{
+    padding: 90px 50px 0px 60px;
+  }
+  .start-info{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .project{
+    height: 175px;
+  }
+  .project-description h2{
+    font-size: 20px;
+  }
+  .project-description p{
+    font-size: 15px;
+  }
+  .projects-img{
+    width: 180px;
+  }
+  .projects-list{
+    justify-content: center;
+  }
+  .offer h3{
+    font-size: 20px;
+  }
+  .offer p{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container{
+    padding: 90px 35px 0px 35px;
+  }
+  .offers-list, .info{
+    display: flex;
+    flex-direction: column;
+  }
+  .projects-title{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .projects h2{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    text-align: center;
+  }
+  .project {
+    display: flex;
+    width: min-content;
+    justify-content: center;
+    padding: 20px 40px;
+    flex-direction: column;
+  }
+  .project-description{
+    align-items: center;
+  }
+  .project-description p{
+    text-align: center;
+    width: auto;
+  }
+  .about-info h2, .projects h2, .offers h2{
+    font-size: 40px;
+  }
+}

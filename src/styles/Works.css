@@ -1,0 +1,158 @@
+.container{
+  padding: 120px 150px 0px 130px;
+}
+
+.start-info{
+  display: flex;
+  gap: 40px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.text-info{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  flex-wrap: wrap;
+}
+
+.title-1{
+  font-family: 'Kalnia', serif;
+  font-size: 80px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.projects1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.projects-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.project{
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  border: #4b4a4a solid 1px;
+  width: 500px;
+  height: 250px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-description{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.project-description h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+.project-description p{
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  flex-wrap: wrap;
+  width: 250px;
+}
+
+.project-description a{
+  color: black;
+}
+
+.projects-img{
+  width: 200px;
+  height: max-content;
+}
+
+@media only screen and (max-width: 960px) {
+  .text h1 {
+    font-size: 60px;
+}
+  .container{
+    padding: 90px 120px 0px 100px;
+  }
+  .projects{
+    margin-top: 70px;
+  }
+  .project{
+    height: 195px;
+  }
+  .projects-title button{
+    width: 215px;
+    height: 45px;
+    font-size: 15px;
+  }
+  .project-description h2{
+    font-size: 22px;
+  }
+  .project-description p{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .container{
+    padding: 90px 50px 0px 60px;
+  }
+  .start-info{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .project{
+    height: 175px;
+  }
+  .project-description h2{
+    font-size: 20px;
+  }
+  .project-description p{
+    font-size: 15px;
+    width: auto;
+  }
+  .projects-img{
+    width: 180px;
+  }
+  .projects-list{
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container{
+    padding: 90px 35px 0px 35px;
+  }
+  .project {
+    height: auto;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .project-description p{
+    text-align: center;
+    width: auto;
+  }
+
+}
