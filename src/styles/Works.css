@@ -131,7 +131,8 @@
     width: auto;
   }
   .projects-img{
-    width: 180px;
+    width: 12em;
+    height: 9em;
   }
   .projects-list{
     justify-content: center;
